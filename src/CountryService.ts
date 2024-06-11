@@ -82,7 +82,7 @@ export const getCountryNameAsync = async (
 
   return countries[countryCode].name
     ? (countries[countryCode].name as TranslationLanguageCodeMap)[translation]
-    : (countries[countryCode].name as TranslationLanguageCodeMap)['common']
+    : (countries[countryCode].name as unknown as TranslationLanguageCodeMap)['common']
 }
 
 export const getCountryCallingCodeAsync = async (countryCode: CountryCode) => {
