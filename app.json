@@ -4,9 +4,9 @@
     "description": "Expo Country Picker Example",
     "slug": "country-picker-example",
     "privacy": "public",
-    "sdkVersion": "51.0.0",
+    "sdkVersion": "51.0.23",
     "platforms": ["ios", "android", "web"],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./src/assets/images/icon.png",
     "splash": {
